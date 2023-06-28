@@ -1,0 +1,77 @@
+.wrapper {
+  padding: 20px 20px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  -webkit-box-shadow: 5px 7px 6px 1px lightgray;
+  -moz-box-shadow: 5px 7px 6px 1px lightgray;
+  box-shadow: 5px 7px 6px 1px lightgray;
+}
+
+.goBackBtn {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+  margin: 0 15px;
+  border: 1px solid lightgray;
+  background-color: inherit;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: all 250ms ease-in-out;
+  
+  &:hover {
+    -webkit-box-shadow: 2px 3px 3px 1px lightgray;
+    -moz-box-shadow: 2px 3px 3px 1px lightgray;
+    box-shadow: 2px 3px 3px 1px lightgray;
+  }
+}
+
+.movieDetails {
+  display: flex;
+  gap: 20px;
+  padding: 20px
+}
+
+.h3 {
+  color: grey;
+  padding: 20px 20px;
+  margin: 0;
+}
+
+.h5 {
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.descriptionWrapper {
+  padding: 10px 20px;
+}
+
+.description {
+  padding: 5px 20px;
+}
+
+.descTitle {
+  color: gray;
+}
+
+.desc {
+  font-size: 14px;
+  color: navy;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.listItem {
+  padding: 5px 0;
+}
+
+.link {
+  color: gray;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: navy;
+}

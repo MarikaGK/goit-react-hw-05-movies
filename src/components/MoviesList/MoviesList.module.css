@@ -1,0 +1,21 @@
+.h1 {
+color: grey;
+padding: 10px 20px;
+}
+
+.list {
+list-style-type: none;
+}
+
+.listItem {
+    padding: 5px 0;
+}
+
+.link {
+    color: gray;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: navy;
+}

@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.input {
+    padding: 10px;
+    width: 250px;
+    outline: none;
+    border: 0.5px solid lightgrey;
+}
+
+.formBtn {
+background-color: lightgrey;
+border: none;
+}

@@ -1,0 +1,9 @@
+.movies {
+    padding: 20px 20px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    -webkit-box-shadow: 5px 7px 6px 1px lightgray;
+    -moz-box-shadow: 5px 7px 6px 1px lightgray;
+    box-shadow: 5px 7px 6px 1px lightgray;
+}
+
