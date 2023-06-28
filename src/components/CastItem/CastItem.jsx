@@ -21,7 +21,7 @@ const CastItem = ({ character, name, img }) => (
 
 export default CastItem;
 
-CastItem.PropTypes = {
+CastItem.propTypes = {
   character: PropTypes.string,
   name: PropTypes.string,
   img: PropTypes.string,
