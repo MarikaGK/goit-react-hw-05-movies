@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import css from './CastItem.module.css';
 
 const CastItem = ({ character, name, img }) => (
@@ -19,3 +20,9 @@ const CastItem = ({ character, name, img }) => (
 );
 
 export default CastItem;
+
+CastItem.PropTypes = {
+  character: PropTypes.string,
+  name: PropTypes.string,
+  img: PropTypes.string,
+};

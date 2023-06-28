@@ -2,18 +2,6 @@ import Container from 'components/Container/Container';
 import { Suspense } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import css from './SharedLayout.module.css';
-/*import styled from "styled-components";
-
-const StyledLink = styled(NavLink)`
-  color: black;
-  text-decoration: none;
-
-  &.active {
-    color: coral;
-    text-decoration: underline;
-  }
-`;
-*/
 
 const SharedLayout = () => {
   return (
